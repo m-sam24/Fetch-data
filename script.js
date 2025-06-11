@@ -16,7 +16,9 @@ async function fetchUsers() {
                 <h3>${user.Name}</h3>
                 <p>${user.Email}</p>
                 <p>${user.Message}</p>
-                <button class="delete-btn">X</button>
+                <button class="delete-btn">
+                    <span class="material-symbols-outlined">delete</span>
+                </button>
             </div>
         `;
         container.insertAdjacentHTML('beforeend', markup);
@@ -29,5 +31,28 @@ async function fetchUsers() {
         }
     });
 }
-
 fetchUsers();
+
+function AddData() {
+    const name = prompt('Enter your name:');
+    const email = prompt('Enter your email:');
+    const message = prompt('Enter your message:');
+    const image = prompt('Enter image URL:');
+    if (name && email && message && image) {
+        const newUser = {
+            Name: name,
+            Email: email,
+            Message: message,
+            Image: image
+        };
+        fetch('https://684905e245f4c0f5ee6fb988.mockapi.io/api/V1/UserData', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(newUser)
+        }).then(() => fetchUsers());
+    } else {
+        alert('Please fill in all fields');
+    }
+}

@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Frame Manager</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
+
 <body>
-    <div class="button">
-        <button class="button">Add Data</button>
-    </div>
-    <div class="items-container">
-    </div>
+    <header>
+        <div class="site-title">Data Frame Manager</div>
+        <div class="button">
+            <button class="button" onclick="AddData()"><span class="material-symbols-outlined">
+                    add
+                </span></button>
+        </div>
+    </header>
+    <main>
+        <section class="items-container">
+            <!-- Items will be added here -->
+        </section>
+    </main>
+    <footer>
+        <div class="footer-title">
+        <p>© 2025 Data Frame Manager</p>
+        <p>Developed by Samyak Mehta</p>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
-</html>
 
+</html>
