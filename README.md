@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # User Data Fetcher
 
 A simple web app to **fetch**, **display**, **add**, and **delete** user data using a mock API.  
@@ -32,3 +33,6 @@ Sites for Api = "https://mockapi.io/projects/684905e245f4c0f5ee6fb989"
    ```sh
    git clone https://github.com/m-sam24/Fetch-data.git
    cd Fetch-data
+=======
+# Fetch-data
+>>>>>>> ef15b28c3189e252f63e53de398254d7f7de8db4
