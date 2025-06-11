@@ -16,13 +16,9 @@ async function fetchUsers() {
                 <h3>${user.Name}</h3>
                 <p>${user.Email}</p>
                 <p>${user.Message}</p>
-<<<<<<< HEAD
                 <button class="delete-btn">
                     <span class="material-symbols-outlined">delete</span>
                 </button>
-=======
-                <button class="delete-btn">X</button>
->>>>>>> ef15b28c3189e252f63e53de398254d7f7de8db4
             </div>
         `;
         container.insertAdjacentHTML('beforeend', markup);

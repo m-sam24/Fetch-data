@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 
 header {
     display: flex;
@@ -48,8 +47,6 @@ header {
     background: #0288d1;
 }
 
-=======
->>>>>>> ef15b28c3189e252f63e53de398254d7f7de8db4
 .button{
     margin : 30px;
     padding: 10px 20px;
@@ -105,7 +102,6 @@ header {
     height: 80px;
     object-fit: cover;
     border-radius: 50%;
-<<<<<<< HEAD
 }
 /* Fotter */
 footer {
@@ -116,6 +112,4 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-=======
->>>>>>> ef15b28c3189e252f63e53de398254d7f7de8db4
 }
