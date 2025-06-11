@@ -19,13 +19,9 @@ Sites for Api = "https://mockapi.io/projects/684905e245f4c0f5ee6fb989"
 ---
 
 ## Demo
-
 <img src="image/image.png" width="70%">
 
 <img src="image/image-1.png" width="70%">
-
----
-
 ## How to Run
 
 1. **Clone this repo**  
